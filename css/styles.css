@@ -39,14 +39,29 @@ ol {
 
 img {
 	display: block;
+	width: 100%;
+	height: auto;
 }
 
 .container {
-	width: 1158px;
+	max-width: 428px;
 	padding-left: 15px;
 	padding-right: 15px;
 	/*outline: 1px solid red;*/
-	margin: 0 auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 768px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.container {
+		max-width: 1158px;
+	}
 }
 
 .section{
@@ -339,15 +354,17 @@ body {
 
 .team-list{
 	display: flex;
+	flex-wrap: wrap;
 	gap: 24px;
 }
 
 .team-card {
 	background-color: #ffffff;
-	width: calc((100% - 72px) / 4);
+	width: 100%;
 	padding-bottom: 32px;
 	box-shadow: 0 1px 6px rgba(46, 47, 66, 0.08), 0 1px 1px rgba(46, 47, 66, 0.16), 0 2px 1px rgba(46, 47, 66, 0.08);
 	border-radius: 0 0 4px 4px;
+
 }
 
 .team-mmbr-name {
