@@ -589,6 +589,7 @@ body {
     background-color: rgba(46, 47, 66, 0.4);
 
     transition: opacity var(--transition-duration) var(--timing-function), visibility var(--transition-duration) var(--timing-function);
+    overflow: auto;
 }
 
 .backdrop.is-hidden {
