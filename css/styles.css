@@ -57,6 +57,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: var(--body-text-color);
+    position: relative;
 
 }
 
@@ -307,7 +308,7 @@ body {
 .customers-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 16px;
     row-gap: 72px;
 }
@@ -589,7 +590,6 @@ body {
     background-color: rgba(46, 47, 66, 0.4);
 
     transition: opacity var(--transition-duration) var(--timing-function), visibility var(--transition-duration) var(--timing-function);
-    overflow: auto;
 }
 
 .backdrop.is-hidden {
