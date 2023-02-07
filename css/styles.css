@@ -307,7 +307,7 @@ body {
 .customers-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     column-gap: 16px;
     row-gap: 72px;
 }
@@ -423,11 +423,9 @@ body {
 
 .subscribe-form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 16px;
-
 }
 .subscribe-form-input{
     width: 100%;
@@ -754,7 +752,7 @@ body {
 
     width: 16px;
     height: 16px;
-    border: 1.25px solid var(--titele-color);
+    border: 1px solid var(--titele-color);
     border-radius: 2px;
     fill: transparent;
 }

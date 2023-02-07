@@ -146,7 +146,10 @@
     }
     .modal-check-desc {
         font-size: 10px;
-    }   
+    }
+    .subscribe-form {
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -159,7 +162,6 @@
 @media screen and (min-width: 480px) {
     
     .hero.section {
-        max-width: 480px;
         padding-top: 112px;
         padding-bottom: 112px;
     }
